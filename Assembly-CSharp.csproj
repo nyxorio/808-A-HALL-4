@@ -60,9 +60,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Blender.cs" />
+    <Compile Include="Assets\Scripts\Drink.cs" />
+    <Compile Include="Assets\Scripts\Ingredient.cs" />
+    <Compile Include="Assets\Scripts\NPC.cs" />
+    <Compile Include="Assets\Scripts\Recipes.cs" />
     <Compile Include="Assets\Scripts\UI\ExitScript.cs" />
-    <Compile Include="Assets\Scripts\UI\Inventory.cs" />
     <Compile Include="Assets\Scripts\UI\LevelChange.cs" />
+    <Compile Include="Assets\Scripts\UI\MilkMeter.cs" />
+    <Compile Include="Assets\Scripts\UI\MilkSlider.cs" />
     <Compile Include="Assets\Scripts\UI\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\UI\Screen.cs" />
     <Compile Include="Assets\Scripts\UI\Settings.cs" />
