@@ -1,18 +1,16 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using TMPro;
 
 public class Recipes : MonoBehaviour
 {
+    [SerializeField] private GameObject drinkList;
+    private TextMeshProUGUI textBox;
+
     // Start is called before the first frame update
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        textBox = GetComponent<TextMeshProUGUI>();
+        foreach (MilkTea mt in drinkList.GetComponentsInChildren<MilkTea>())
+            textBox.text += mt.ToString();
     }
 }

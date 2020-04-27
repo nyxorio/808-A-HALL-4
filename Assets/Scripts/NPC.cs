@@ -5,32 +5,23 @@ using UnityEngine.SceneManagement;
 
 public class NPC : MonoBehaviour
 {
-    [SerializeField] private int boba, teaBag, water, sugar, fruitJuice, milk;
-    private string orderName;
-    private Dictionary<string, int> order;
-
     [SerializeField] private GameObject nextCharacter;
+    private MilkTea order;
 
     private void Start()
     {
-        order = new Dictionary<string, int>();
-        order.Add("Boba", boba);
-        order.Add("Tea Bag", teaBag);
-        order.Add("Water", water);
-        order.Add("Sugar", sugar);
-        order.Add("Fruit Juice", fruitJuice);
-        order.Add("Milk", milk);
+        order = GetComponentInChildren<MilkTea>();
     }
 
     public void Receive(Dictionary<string, int> drink)
     {
-        if (order.Keys.All(k => drink.ContainsKey(k) && object.Equals(order[k], drink[k])))
+        if (order.CheckOrder(drink))
         {
             Debug.Log("Thank you!");
 
             if (nextCharacter == null)
             {
-                GameObject.Find("Character List").GetComponent<LevelChange>().ChangeLevel();
+                GetComponentInParent<LevelChange>().ChangeLevel();
                 return;
             }
 
@@ -40,6 +31,6 @@ public class NPC : MonoBehaviour
             gameObject.SetActive(false);
         }
         else
-            Debug.Log("That's not my order ...");
+            Debug.Log("That's not my order ... I ordered a " + order.name + ".");
     }
 }

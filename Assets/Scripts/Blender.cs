@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class Blender : MonoBehaviour
 {
+    [SerializeField] private GameObject drinkList;
+
     [SerializeField] private GameObject drink;
     private Slider milk;
 
@@ -23,6 +25,8 @@ public class Blender : MonoBehaviour
 
         foreach (Ingredient ingredient in GameObject.Find("Ingredient List").GetComponentsInChildren<Ingredient>())
             mix.Add(ingredient.GetIngredient(), 0);
+        mix.Add("Milk", 0);
+
 
         MeterUpdate();
     }
@@ -52,24 +56,15 @@ public class Blender : MonoBehaviour
 
     public void Mix()
     {
+        mix["Milk"] = (int)milk.value;
 
-        Dictionary<string, int> temp = new Dictionary<string, int>();
-
-        temp.Add("Boba", 1);
-        temp.Add("Tea Bag", 2);
-        temp.Add("Water", 2);
-        temp.Add("Sugar", 1);
-        temp.Add("Fruit Juice", 0);
-        temp.Add("Milk", 50);
-
-        if (mix.Keys.All(k => temp.ContainsKey(k) && object.Equals(mix[k], temp[k])) && Mathf.Abs(temp["Milk"] - milk.value) < 10)
-        {
-            Dictionary<string, int> copy = new Dictionary<string, int>(mix);
-            copy.Add("Milk", temp["Milk"]);
-            drink.SetActive(true);
-            //drink.GetComponent<Drink>().SetName(temp.name);
-            drink.GetComponent<Drink>().SetMix(copy);
-        }
+        foreach (MilkTea mt in drinkList.GetComponentsInChildren<MilkTea>())
+            if (mt.CheckOrder(mix))
+            {
+                drink.SetActive(true);
+                drink.GetComponent<Drink>().SetMix(mix);
+                break;
+            }
 
         Reset();
     }
