@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Blender.cs" />
+    <Compile Include="Assets\Scripts\Coins.cs" />
     <Compile Include="Assets\Scripts\Drink.cs" />
     <Compile Include="Assets\Scripts\Ingredient.cs" />
     <Compile Include="Assets\Scripts\MilkTea.cs" />

@@ -7,7 +7,7 @@ public class Ingredient : MonoBehaviour
     [SerializeField] private string ingredient;
     private Vector3 startPos;
     private float mousePosX, mousePosY;
-    private bool isHeld = false, isHovered = false;
+    private bool isHeld = false;
 
     private void Awake()
     {
@@ -50,7 +50,6 @@ public class Ingredient : MonoBehaviour
         isHeld = false;
         transform.localPosition = startPos;
     }
-
 
     public string GetIngredient() { return ingredient; }
 }

@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class Drink : MonoBehaviour
 {
+    [SerializeField] private LayerMask playerLayer;
     private NPC character;
     private Dictionary<string, int> drink;
     private string drinkName;
 
     private Vector3 startPos;
     private float mousePosX, mousePosY;
-    private bool isHeld = false, isHovered = false;
+    private bool isHeld = false;
 
     private void Awake()
     {
@@ -51,13 +52,14 @@ public class Drink : MonoBehaviour
     {
         isHeld = false;
 
-        foreach (Collider2D hitTargets in Physics2D.OverlapCircleAll(transform.position, .75f))
+        foreach (Collider2D hitTargets in Physics2D.OverlapCircleAll(transform.position, .75f, playerLayer))
         {
             if (hitTargets.tag == "NPC")
             {
-                character.Receive(drink);
+                StartCoroutine( character.Receive(drink) );
                 transform.localPosition = startPos;
-                gameObject.SetActive(false);
+                GetComponent<SpriteRenderer>().sprite = null;
+                //gameObject.SetActive(false);
                 return;
             }
         }

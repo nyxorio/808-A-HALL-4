@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 3152777355610320779}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 4.15, y: 0.41, z: 2.1972656}
-  m_LocalScale: {x: 0.64, y: 0.492, z: 1}
+  m_LocalScale: {x: 1.01952, y: 0.672564, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -119,4 +119,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a05b64a18f727a4fbe09545a09b4547, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  drinkList: {fileID: 0}
   drink: {fileID: 0}
+  toppings:
+  - Plain
+  - Boba
+  - Lychee Jelly

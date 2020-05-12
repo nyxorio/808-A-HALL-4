@@ -6,8 +6,9 @@ using UnityEngine.UI;
 public class Blender : MonoBehaviour
 {
     [SerializeField] private GameObject drinkList;
-
     [SerializeField] private GameObject drink;
+    [SerializeField] public List<string> toppings;
+
     private Slider milk;
 
     private Dictionary<string, int> mix = new Dictionary<string, int>();
@@ -26,13 +27,16 @@ public class Blender : MonoBehaviour
         foreach (Ingredient ingredient in GameObject.Find("Ingredient List").GetComponentsInChildren<Ingredient>())
             mix.Add(ingredient.GetIngredient(), 0);
         mix.Add("Milk", 0);
-
+        mix.Add("Topping", 0);
 
         MeterUpdate();
     }
 
     public void Add(string name)
     {
+        if (counter >= 6)
+            return;
+
         mix[name]++;
         counter++;
         MeterUpdate();
@@ -61,6 +65,16 @@ public class Blender : MonoBehaviour
         foreach (MilkTea mt in drinkList.GetComponentsInChildren<MilkTea>())
             if (mt.CheckOrder(mix))
             {
+                drink.GetComponent<SpriteRenderer>().sprite = mt.GetImage(0);
+                int current = 0;
+                for (int i = toppings.Count-1; i>0; i--)
+                    if (mix[toppings[i]] > current)
+                    {
+                        drink.GetComponent<SpriteRenderer>().sprite = mt.GetImage(i);
+                        mix["Topping"] = i;
+                        break;
+                    }
+
                 drink.SetActive(true);
                 drink.GetComponent<Drink>().SetMix(mix);
                 break;

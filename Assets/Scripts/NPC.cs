@@ -1,36 +1,51 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+using TMPro;
+using UnityEngine.Events;
 
 public class NPC : MonoBehaviour
 {
     [SerializeField] private GameObject nextCharacter;
+    [SerializeField] private int milk;
+    [SerializeField] private string topping;
     private MilkTea order;
+    private TextMeshProUGUI textBox;
+
+    public UnityEvent PayEvent;
 
     private void Start()
     {
         order = GetComponentInChildren<MilkTea>();
-    }
+        textBox = GameObject.Find("Character Text").GetComponent<TextMeshProUGUI>();
+        textBox.text = "Hi! Can I have a " + topping + " " + order.name + " with " + milk + " % milk.";
 
-    public void Receive(Dictionary<string, int> drink)
+        if (PayEvent == null)
+            PayEvent = new UnityEvent();
+    }
+    
+    public System.Collections.IEnumerator Receive(Dictionary<string, int> drink)
     {
-        if (order.CheckOrder(drink))
+        if (order.CheckOrder(drink) && GameObject.Find("Blender").GetComponent<Blender>().toppings[drink["Topping"]] == topping && Mathf.Abs(drink["Milk"] - milk) < 10)
         {
-            Debug.Log("Thank you!");
+            textBox.text = "Thank you!";
+            PayEvent.Invoke();
+            yield return new WaitForSeconds(3);
 
             if (nextCharacter == null)
-            {
                 GetComponentInParent<LevelChange>().ChangeLevel();
-                return;
-            }
 
-            nextCharacter.SetActive(true);
-            name = "Character (Complete)";
-            GameObject.Find("Drink").GetComponent<Drink>().NextOrder();
-            gameObject.SetActive(false);
+            else {
+                nextCharacter.SetActive(true);
+                name = "Character (Complete)";
+                GameObject.Find("Drink").GetComponent<Drink>().NextOrder();
+                gameObject.SetActive(false);
+            }
         }
         else
-            Debug.Log("That's not my order ... I ordered a " + order.name + ".");
+        {
+            textBox.text = "...";
+            yield return new WaitForSeconds(1);
+            textBox.text = "That's not my order ... I ordered a " + topping + " " + order.name + " with " + milk + "% milk.";
+        }
     }
 }
