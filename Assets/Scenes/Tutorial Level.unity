@@ -1526,6 +1526,7 @@ MonoBehaviour:
   - Distracted_Girl
   - Example3Dialogue
   - Example4_dialogue
+  - Familiar_Girl
   - Item_LookUp
   - Laura
   - MrCube
@@ -1534,9 +1535,9 @@ MonoBehaviour:
   - Shy_Girl
   - TriggeredDude
   - Witch
-  assignedIndex: 13
-  assignedID: 7092
-  assignedDialogue: Shy_Girl
+  assignedIndex: 0
+  assignedID: 79710
+  assignedDialogue: Charlie
   interactionCount: 0
   alias: Dude
   overrideStartNode: -1
