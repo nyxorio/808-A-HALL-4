@@ -18,9 +18,9 @@ public class Drink : MonoBehaviour
         character = GameObject.Find("Character").GetComponent<NPC>();
     }
 
-    public void NextOrder()
+    public void NextOrder(GameObject character)
     {
-        character = GameObject.Find("Character").GetComponent<NPC>();
+        this.character = character.GetComponent<NPC>();
     }
 
     // Update is called once per frame
@@ -56,7 +56,7 @@ public class Drink : MonoBehaviour
         {
             if (hitTargets.tag == "NPC")
             {
-                StartCoroutine( character.Receive(drink) );
+                character.Receive(drink);
                 transform.localPosition = startPos;
                 GetComponent<SpriteRenderer>().sprite = null;
                 //gameObject.SetActive(false);

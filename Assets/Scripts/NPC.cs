@@ -5,16 +5,21 @@ using UnityEngine.Events;
 
 public class NPC : MonoBehaviour
 {
-    [SerializeField] private GameObject nextCharacter;
+    [SerializeField] public GameObject nextCharacter;
     [SerializeField] private int milk;
     [SerializeField] private string topping;
+    [SerializeField] private int correctNode, wrongNode;
     private MilkTea order;
     private TextMeshProUGUI textBox;
+    private Template_UIManager UIManager;
 
     public UnityEvent PayEvent;
 
     private void Start()
     {
+        UIManager = GameObject.Find("UIMANAGER").GetComponent<Template_UIManager>();
+        UIManager.Interact(GetComponent<VIDE_Assign>());
+
         order = GetComponentInChildren<MilkTea>();
         textBox = GameObject.Find("Character Text").GetComponent<TextMeshProUGUI>();
         textBox.text = "Hi! Can I have a " + topping + " " + order.name + " with " + milk + " % milk.";
@@ -23,29 +28,15 @@ public class NPC : MonoBehaviour
             PayEvent = new UnityEvent();
     }
     
-    public System.Collections.IEnumerator Receive(Dictionary<string, int> drink)
+    public void Receive(Dictionary<string, int> drink)
     {
         if (order.CheckOrder(drink) && GameObject.Find("Blender").GetComponent<Blender>().toppings[drink["Topping"]] == topping && Mathf.Abs(drink["Milk"] - milk) < 10)
         {
-            textBox.text = "Thank you!";
             PayEvent.Invoke();
-            yield return new WaitForSeconds(3);
-
-            if (nextCharacter == null)
-                GetComponentInParent<LevelChange>().ChangeLevel();
-
-            else {
-                nextCharacter.SetActive(true);
-                name = "Character (Complete)";
-                GameObject.Find("Drink").GetComponent<Drink>().NextOrder();
-                gameObject.SetActive(false);
-            }
+            UIManager.Jump(correctNode);
+            //name = "Character (Complete)";
         }
         else
-        {
-            textBox.text = "...";
-            yield return new WaitForSeconds(1);
-            textBox.text = "That's not my order ... I ordered a " + topping + " " + order.name + " with " + milk + "% milk.";
-        }
+            UIManager.Jump(wrongNode);
     }
 }

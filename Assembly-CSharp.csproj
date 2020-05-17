@@ -60,6 +60,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< Updated upstream
+=======
+    <Compile Include="Assets\DialogueBox.cs" />
+>>>>>>> Stashed changes
     <Compile Include="Assets\Scripts\Blender.cs" />
     <Compile Include="Assets\Scripts\Coins.cs" />
     <Compile Include="Assets\Scripts\Drink.cs" />
@@ -67,6 +71,7 @@
     <Compile Include="Assets\Scripts\MilkTea.cs" />
     <Compile Include="Assets\Scripts\NPC.cs" />
     <Compile Include="Assets\Scripts\Recipes.cs" />
+    <Compile Include="Assets\Scripts\UI\DialogueBox.cs" />
     <Compile Include="Assets\Scripts\UI\ExitScript.cs" />
     <Compile Include="Assets\Scripts\UI\LevelChange.cs" />
     <Compile Include="Assets\Scripts\UI\MilkMeter.cs" />
@@ -75,6 +80,22 @@
     <Compile Include="Assets\Scripts\UI\RecipeMenu.cs" />
     <Compile Include="Assets\Scripts\UI\Screen.cs" />
     <Compile Include="Assets\Scripts\UI\Settings.cs" />
+<<<<<<< Updated upstream
+=======
+    <Compile Include="Assets\VIDE\Data\MiniJSON_VIDE.cs" />
+    <Compile Include="Assets\VIDE\Data\VIDE_Data.cs" />
+    <Compile Include="Assets\VIDE\Data\VIDE_Editor_Skin.cs" />
+    <Compile Include="Assets\VIDE\Data\VIDE_EditorDB.cs" />
+    <Compile Include="Assets\VIDE\Data\VIDE_Localization.cs" />
+    <Compile Include="Assets\VIDE\Demos\Localization\VIDEUIManager2.cs" />
+    <Compile Include="Assets\VIDE\Demos\MultiInstances\VIDEUIManager3.cs" />
+    <Compile Include="Assets\VIDE\Demos\PlayerInteraction\demoScripts\CylinderGuy.cs" />
+    <Compile Include="Assets\VIDE\Demos\PlayerInteraction\demoScripts\QuestChartDemo.cs" />
+    <Compile Include="Assets\VIDE\Demos\PlayerInteraction\demoScripts\VIDEDemoPlayer.cs" />
+    <Compile Include="Assets\VIDE\Demos\PlayerInteraction\demoScripts\VIDEUIManager1.cs" />
+    <Compile Include="Assets\VIDE\Demos\PlayerInteraction\demoScripts\witchExample.cs" />
+>>>>>>> Stashed changes
+    <Compile Include="Assets\VIDE\Demos\Template\Template_UIManager.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />

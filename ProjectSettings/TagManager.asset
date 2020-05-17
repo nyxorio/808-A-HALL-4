@@ -51,3 +51,6 @@ TagManager:
   - name: Objects
     uniqueID: 553681257
     locked: 0
+  - name: Ingredients
+    uniqueID: 2146311103
+    locked: 0
