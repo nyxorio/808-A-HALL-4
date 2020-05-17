@@ -61,6 +61,10 @@
   </ItemGroup>
   <ItemGroup>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+    <Compile Include="Assets\DialogueBox.cs" />
+>>>>>>> Stashed changes
 =======
     <Compile Include="Assets\DialogueBox.cs" />
 >>>>>>> Stashed changes
