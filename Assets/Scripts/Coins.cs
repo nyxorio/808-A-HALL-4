@@ -15,11 +15,12 @@ public class Coins : MonoBehaviour
 
     public void AddMoney(int amount)
     {
-        if (amount < 15)
+        currentAmount += amount;
+
+        if (currentAmount < 15)
             GetComponent<Image>().sprite = smallPile;
         else
             GetComponent<Image>().sprite = bigPile;
-        currentAmount += amount;
 
         GetComponent<Image>().enabled = true;
     }

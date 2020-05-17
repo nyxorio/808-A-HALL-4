@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
+using VIDE_Data;
 
 public class LevelChange : MonoBehaviour
 {

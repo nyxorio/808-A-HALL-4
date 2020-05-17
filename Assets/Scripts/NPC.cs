@@ -10,7 +10,6 @@ public class NPC : MonoBehaviour
     [SerializeField] private string topping;
     [SerializeField] private int correctNode, wrongNode;
     private MilkTea order;
-    private TextMeshProUGUI textBox;
     private Template_UIManager UIManager;
 
     public UnityEvent PayEvent;
@@ -21,8 +20,6 @@ public class NPC : MonoBehaviour
         UIManager.Interact(GetComponent<VIDE_Assign>());
 
         order = GetComponentInChildren<MilkTea>();
-        textBox = GameObject.Find("Character Text").GetComponent<TextMeshProUGUI>();
-        textBox.text = "Hi! Can I have a " + topping + " " + order.name + " with " + milk + " % milk.";
 
         if (PayEvent == null)
             PayEvent = new UnityEvent();
@@ -34,7 +31,6 @@ public class NPC : MonoBehaviour
         {
             PayEvent.Invoke();
             UIManager.Jump(correctNode);
-            //name = "Character (Complete)";
         }
         else
             UIManager.Jump(wrongNode);
