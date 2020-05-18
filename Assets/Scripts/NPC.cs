@@ -17,8 +17,6 @@ public class NPC : MonoBehaviour
 
     private void Start()
     {
-        //GetComponent<SpriteRenderer>().sprite = null;
-
         UIManager = GameObject.Find("UIMANAGER").GetComponent<UIManager>();
         UIManager.Interact(GetComponent<VIDE_Assign>());
 
