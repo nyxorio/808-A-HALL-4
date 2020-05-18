@@ -5,7 +5,7 @@ using UnityEngine.Events;
 
 public class DialogueBox : MonoBehaviour
 {
-    public Template_UIManager UIManager;
+    public UIManager UIManager;
     public VIDE_Assign character;
 
     private void OnMouseDown()

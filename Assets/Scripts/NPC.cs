@@ -11,13 +11,15 @@ public class NPC : MonoBehaviour
     [SerializeField] private int correctNode, wrongNode;
     [SerializeField] private Sprite characterArt;
     private MilkTea order;
-    private Template_UIManager UIManager;
+    private UIManager UIManager;
 
     public UnityEvent PayEvent;
 
     private void Start()
     {
-        UIManager = GameObject.Find("UIMANAGER").GetComponent<Template_UIManager>();
+        //GetComponent<SpriteRenderer>().sprite = null;
+
+        UIManager = GameObject.Find("UIMANAGER").GetComponent<UIManager>();
         UIManager.Interact(GetComponent<VIDE_Assign>());
 
         order = GetComponentInChildren<MilkTea>();
@@ -28,7 +30,7 @@ public class NPC : MonoBehaviour
     
     public void Receive(Dictionary<string, int> drink)
     {
-        if (order.CheckOrder(drink) && GameObject.Find("Blender").GetComponent<Blender>().toppings[drink["Topping"]] == topping && Mathf.Abs(drink["Milk"] - milk) < 10)
+        if (order.CheckOrder(drink) && GameObject.Find("Blender").GetComponent<Blender>().toppings[drink["Topping"]] == topping && Mathf.Abs(drink["Milk"] - milk) <= 5)
         {
             PayEvent.Invoke();
             UIManager.Jump(correctNode);
@@ -37,13 +39,23 @@ public class NPC : MonoBehaviour
             UIManager.Jump(wrongNode);
     }
 
-    public void ShowImage()
+    public void ToggleSprite()
     {
-        GetComponent<SpriteRenderer>().sprite = characterArt;
+        if (GetComponent<SpriteRenderer>().sprite == null)
+            GetComponent<SpriteRenderer>().sprite = characterArt;
+        else
+            GetComponent<SpriteRenderer>().sprite = null;
     }
 
-    public void HideImage()
+    public void Continue()
     {
-        GetComponent<SpriteRenderer>().sprite = null;
+        if (nextCharacter == null)
+            GameObject.Find("Character List").GetComponent<LevelChange>().ChangeLevel();
+        else
+        {
+            nextCharacter.SetActive(true);
+            GameObject.Find("Drink").GetComponent<Drink>().NextOrder(nextCharacter);
+            gameObject.SetActive(false);
+        }
     }
 }

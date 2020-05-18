@@ -76,13 +76,14 @@
     <Compile Include="Assets\Scripts\UI\RecipeMenu.cs" />
     <Compile Include="Assets\Scripts\UI\Screen.cs" />
     <Compile Include="Assets\Scripts\UI\Settings.cs" />
+    <Compile Include="Assets\Scripts\VN_Controller.cs" />
     <Compile Include="Assets\VIDE\Data\MiniJSON_VIDE.cs" />
     <Compile Include="Assets\VIDE\Data\VIDE_Data.cs" />
     <Compile Include="Assets\VIDE\Data\VIDE_Editor_Skin.cs" />
     <Compile Include="Assets\VIDE\Data\VIDE_EditorDB.cs" />
     <Compile Include="Assets\VIDE\Data\VIDE_Localization.cs" />
     <Compile Include="Assets\VIDE\Demos\Localization\VIDEUIManager2.cs" />
-    <Compile Include="Assets\VIDE\Demos\Template\Template_UIManager.cs" />
+    <Compile Include="Assets\VIDE\Demos\Template\UIManager.cs" />
     <Compile Include="Assets\VIDE\Demos\VeryBasic\minUIExample.cs" />
     <Compile Include="Assets\VIDE\VIDE_Assign.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />

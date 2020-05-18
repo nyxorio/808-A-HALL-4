@@ -1434,6 +1434,7 @@ GameObject:
   - component: {fileID: 259588567}
   - component: {fileID: 259588566}
   - component: {fileID: 259588565}
+  - component: {fileID: 259588563}
   m_Layer: 0
   m_Name: UIMANAGER
   m_TagString: Untagged
@@ -1441,6 +1442,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &259588563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 259588562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5da3b8916c57e954fa764f78c6221b4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!82 &259588565
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3922,7 +3935,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nextCharacter: {fileID: 1856205921}
   milk: 25
-  topping: Plain
+  topping: Lychee Jelly
   correctNode: 13
   wrongNode: 26
   characterArt: {fileID: 21300000, guid: 6b0955e871d97664d9ff040c935dc3aa, type: 3}
@@ -3935,7 +3948,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 18
+          m_IntArgument: 20
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -5719,7 +5732,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nextCharacter: {fileID: 62399426}
   milk: 0
-  topping: Lychee Jelly
+  topping: Plain
   correctNode: 6
   wrongNode: 18
   characterArt: {fileID: 21300000, guid: b3fcbb41595ae8a4bb677aecaf0d82ae, type: 3}
@@ -5732,7 +5745,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 10
+          m_IntArgument: 18
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
