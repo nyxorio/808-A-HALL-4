@@ -43,24 +43,270 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 268dc70b105993846a123be43345df63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fileIndex: 0
+  fileIndex: 4
   skinIndex: 0
   loadTag: 
-  startID: 1
-  curFocusID: 1
-  currentID: 79710
+  startID: 0
+  curFocusID: 0
+  currentID: 22329
   autosave: 1
   previewPanning: 0
-  currentDiag: 0
+  currentDiag: 4
   locEdit: 0
   pNodeID: 18
   aNodeID: 2
   S_playerDiags:
-  - commentCount: 1
+  - commentCount: 4
     s_comment:
-    - text: Just the plain milk tea.
-      extraData: 
+    - text: Today is the pre-opening day in the new cafe.
+      extraData: ExtraData
       inputSetIndex: 0
+      outputNodeIndex: 1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 29
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: Being new to the city and opening up the cafe, it's been quite a busy
+        road to this point.
+      extraData: ExtraData
+      inputSetIndex: 0
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: While there has not been much time to go out and learn about the city,
+        at least you are happy about the cafe itself.
+      extraData: ExtraData
+      inputSetIndex: 0
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: Everything was stocked up. The store was clean. It was as ready as things
+        could be.
+      extraData: ExtraData
+      inputSetIndex: 0
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 0
+    rect:
+      serializedVersion: 2
+      x: 310
+      y: 260
+      width: 349
+      height: 365
+    pTag: 
+    expand: 1
+    sprite: {fileID: 21300000, guid: eae08329872d58c49b7a45ac20a67f58, type: 3}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 2
+    s_comment:
+    - text: Well ... Except for the fact that I should probably practice making some
+        drinks.
+      extraData: ExtraData
+      inputSetIndex: 1
+      outputNodeIndex: 2
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 42
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: Yeah. That might be important.
+      extraData: ExtraData
+      inputSetIndex: 1
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 1
+    rect:
+      serializedVersion: 2
+      x: 680
+      y: 300
+      width: 349
+      height: 164
+    pTag: Mimi
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 3
+    s_comment:
+    - text: You walk behind the drink making counter, looking out at the closed front
+        door with the "Closed" sign hung up.
+      extraData: ExtraData
+      inputSetIndex: 2
+      outputNodeIndex: 3
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 55
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: Looking behind you, there are various ingredients on the shelves and counter
+        ready to be mixed.
+      extraData: ExtraData
+      inputSetIndex: 2
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: All that's left is to mix them.
+      extraData: ExtraData
+      inputSetIndex: 2
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 2
+    rect:
+      serializedVersion: 2
+      x: 1040
+      y: 300
+      width: 349
+      height: 327
+    pTag: 
+    expand: 1
+    sprite: {fileID: 21300000, guid: eae08329872d58c49b7a45ac20a67f58, type: 3}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 3
+    s_comment:
+    - text: Well, time to get to work.
+      extraData: ExtraData
+      inputSetIndex: 3
+      outputNodeIndex: 4
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 21
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: For today, let's just make myself a boba milk tea.
+      extraData: ExtraData
+      inputSetIndex: 3
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: Should I review how to make drinks?
+      extraData: ExtraData
+      inputSetIndex: 3
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 3
+    rect:
+      serializedVersion: 2
+      x: 1400
+      y: 300
+      width: 349
+      height: 181
+    pTag: Mimi
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 2
+    s_comment:
+    - text: That's probably a good idea.
+      extraData: ExtraData
+      inputSetIndex: 4
       outputNodeIndex: 5
       outActionIndex: -1
       showmore: 0
@@ -73,266 +319,39 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    ID: 5
-    rect:
-      serializedVersion: 2
-      x: 1240
-      y: -190
-      width: 349
-      height: 215
-    pTag: Sullen faced girl
-    expand: 1
-    sprite: {fileID: 21300000, guid: b3fcbb41595ae8a4bb677aecaf0d82ae, type: 3}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 1
-    s_comment:
-    - text: Oh, just 50%. Thank you.
-      extraData: 
-      inputSetIndex: 1
-      outputNodeIndex: 7
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 302
-        y: 59
-        width: 30
-        height: 21
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 13
-    rect:
-      serializedVersion: 2
-      x: 2030
-      y: -220
-      width: 349
-      height: 215
-    pTag: Sullen faced girl
-    expand: 1
-    sprite: {fileID: 21300000, guid: b3fcbb41595ae8a4bb677aecaf0d82ae, type: 3}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 2
-    s_comment:
-    - text: "What\u2019s wrong?[-5]"
-      extraData: 
-      inputSetIndex: 2
-      outputNodeIndex: 3
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 302
-        y: 59
-        width: 30
-        height: 21
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: Of course, what can I get you?[+5]
-      extraData: 
-      inputSetIndex: 2
-      outputNodeIndex: 4
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 302
-        y: 81
-        width: 30
-        height: 29
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 0
-    rect:
-      serializedVersion: 2
-      x: 180
-      y: -130
-      width: 349
-      height: 267
-    pTag: 
-    expand: 1
-    sprite: {fileID: 21300000, guid: 54255e20f0a98344b842421502a77225, type: 3}
-    vars:
-    - 
-    varKeys:
-    - Key1
-    isPlayer: 1
-  - commentCount: 1
-    s_comment:
-    - text: "I\u2019d rather not talk about it. "
-      extraData: ExtraData
-      inputSetIndex: 3
-      outputNodeIndex: 0
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 302
-        y: 59
-        width: 30
-        height: 21
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 2
-    rect:
-      serializedVersion: 2
-      x: 760
-      y: -230
-      width: 349
-      height: 303
-    pTag: Sullen faced girl
-    expand: 1
-    sprite: {fileID: 21300000, guid: b3fcbb41595ae8a4bb677aecaf0d82ae, type: 3}
-    vars:
-    - SomeString
-    - 12354
-    - false
-    - 1.52
-    varKeys:
-    - Key1
-    - Key2
-    - Key3
-    - Key4
-    isPlayer: 0
-  - commentCount: 1
-    s_comment:
-    - text: Her eyes seem to soften just a bit.
+    - text: No, I'll just wing it and enjoy my drink.
       extraData: ExtraData
       inputSetIndex: 4
-      outputNodeIndex: 0
+      outputNodeIndex: -1
       outActionIndex: -1
       showmore: 0
       outRect:
         serializedVersion: 2
-        x: 302
-        y: 59
-        width: 30
-        height: 29
+        x: 0
+        y: 0
+        width: 0
+        height: 0
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    ID: 3
+    ID: 4
     rect:
       serializedVersion: 2
-      x: 1300
-      y: 80
+      x: 1750
+      y: 300
       width: 349
-      height: 267
-    pTag: Sullen faced girl
-    expand: 1
-    sprite: {fileID: 21300000, guid: b3fcbb41595ae8a4bb677aecaf0d82ae, type: 3}
-    vars:
-    - 
-    - 
-    varKeys:
-    - Key1
-    - Key2
-    isPlayer: 0
-  - commentCount: 1
-    s_comment:
-    - text: 100% milk?
-      extraData: ExtraData
-      inputSetIndex: 5
-      outputNodeIndex: 1
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 302
-        y: 59
-        width: 30
-        height: 21
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 12
-    rect:
-      serializedVersion: 2
-      x: 1640
-      y: -180
-      width: 349
-      height: 215
+      height: 151
     pTag: Mimi
-    expand: 1
-    sprite: {fileID: 21300000, guid: 54255e20f0a98344b842421502a77225, type: 3}
+    expand: 0
+    sprite: {fileID: 0}
     vars: []
     varKeys: []
     isPlayer: 1
-  - commentCount: 1
+  - commentCount: 5
     s_comment:
-    - text: Can I just order?
-      extraData: 
-      inputSetIndex: 6
-      outputNodeIndex: 2
-      outActionIndex: -1
-      showmore: 1
-      outRect:
-        serializedVersion: 2
-        x: 302
-        y: 59
-        width: 30
-        height: 21
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 1
-    rect:
-      serializedVersion: 2
-      x: -190
-      y: -60
-      width: 349
-      height: 264
-    pTag: Sullen faced girl
-    expand: 1
-    sprite: {fileID: 21300000, guid: b3fcbb41595ae8a4bb677aecaf0d82ae, type: 3}
-    vars:
-    - 
-    varKeys:
-    - Key1
-    isPlayer: 0
-  - commentCount: 1
-    s_comment:
-    - text: She remains at the counter waiting patiently, looking off with a faraway
-        gaze.
-      extraData: 
-      inputSetIndex: 7
-      outputNodeIndex: 9
-      outActionIndex: -1
-      showmore: 1
-      outRect:
-        serializedVersion: 2
-        x: 302
-        y: 59
-        width: 30
-        height: 42
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 15
-    rect:
-      serializedVersion: 2
-      x: 2400
-      y: -280
-      width: 349
-      height: 263
-    pTag: Sullen faced girl
-    expand: 1
-    sprite: {fileID: 21300000, guid: b3fcbb41595ae8a4bb677aecaf0d82ae, type: 3}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 1
-    s_comment:
-    - text: Welcome! How are you today?
+    - text: Ok so first, let's put some ingredients in the blender.
       extraData: ExtraData
-      inputSetIndex: 8
+      inputSetIndex: 5
       outputNodeIndex: 6
       outActionIndex: -1
       showmore: 0
@@ -341,90 +360,90 @@ MonoBehaviour:
         x: 302
         y: 59
         width: 30
-        height: 21
+        height: 29
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    ID: 20
-    rect:
-      serializedVersion: 2
-      x: -560
-      y: -10
-      width: 349
-      height: 215
-    pTag: Mimi
-    expand: 1
-    sprite: {fileID: 21300000, guid: 54255e20f0a98344b842421502a77225, type: 3}
-    vars: []
-    varKeys: []
-    isPlayer: 1
-  - commentCount: 1
-    s_comment:
-    - text: '[Deliver order.]'
+    - text: For the Milk Tea, I need 3 Tea and 2 Sugar.
       extraData: ExtraData
-      inputSetIndex: 9
-      outputNodeIndex: 10
+      inputSetIndex: 5
+      outputNodeIndex: -1
       outActionIndex: -1
       showmore: 0
       outRect:
         serializedVersion: 2
-        x: 302
-        y: 59
-        width: 30
-        height: 21
+        x: 0
+        y: 0
+        width: 0
+        height: 0
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    ID: 4
-    rect:
-      serializedVersion: 2
-      x: 2800
-      y: -230
-      width: 349
-      height: 215
-    pTag: Mimi
-    expand: 1
-    sprite: {fileID: 21300000, guid: 54255e20f0a98344b842421502a77225, type: 3}
-    vars: []
-    varKeys: []
-    isPlayer: 1
-  - commentCount: 1
-    s_comment:
-    - text: "That\u2019ll be 20 gold."
+    - text: Let's just drag them from the shelves into the blender.
       extraData: ExtraData
-      inputSetIndex: 10
-      outputNodeIndex: 11
+      inputSetIndex: 5
+      outputNodeIndex: -1
       outActionIndex: -1
       showmore: 0
       outRect:
         serializedVersion: 2
-        x: 302
-        y: 59
-        width: 30
-        height: 21
+        x: 0
+        y: 0
+        width: 0
+        height: 0
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    ID: 6
+    - text: I can tell how full the Blender is based on bars below.
+      extraData: ExtraData
+      inputSetIndex: 5
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: The blender can only hold up to 6 ingredients.
+      extraData: ExtraData
+      inputSetIndex: 5
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 5
     rect:
       serializedVersion: 2
-      x: 3180
-      y: -240
+      x: 2110
+      y: 230
       width: 349
-      height: 215
+      height: 249
     pTag: Mimi
-    expand: 1
-    sprite: {fileID: 21300000, guid: 54255e20f0a98344b842421502a77225, type: 3}
+    expand: 0
+    sprite: {fileID: 0}
     vars: []
     varKeys: []
-    isPlayer: 1
+    isPlayer: 0
   - commentCount: 1
     s_comment:
-    - text: "She nods and rummages through her wallet before grimacing a bit before
-        pulling out 18 coins.\r\n"
+    - text: You lean closer to inspect the contents of the blender for a moment before
+        nodding and continuing your train of thought.
       extraData: ExtraData
-      inputSetIndex: 11
-      outputNodeIndex: 12
+      inputSetIndex: 6
+      outputNodeIndex: 7
       outActionIndex: -1
       showmore: 0
       outRect:
@@ -436,230 +455,46 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
+    ID: 6
+    rect:
+      serializedVersion: 2
+      x: 2460
+      y: 240
+      width: 349
+      height: 249
+    pTag: 
+    expand: 1
+    sprite: {fileID: 21300000, guid: 6efd171d299f246419a32398e5c05c6d, type: 3}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: Comment...
+      extraData: ExtraData
+      inputSetIndex: 7
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
     ID: 7
     rect:
       serializedVersion: 2
-      x: 3550
-      y: -240
+      x: 2810
+      y: 240
       width: 349
-      height: 249
-    pTag: Sullen faced girl
-    expand: 1
-    sprite: {fileID: 21300000, guid: b3fcbb41595ae8a4bb677aecaf0d82ae, type: 3}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 2
-    s_comment:
-    - text: Thank you, have a nice day.[+5]
-      extraData: ExtraData
-      inputSetIndex: 12
-      outputNodeIndex: 13
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 302
-        y: 59
-        width: 30
-        height: 21
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: "You\u2019re still short 2 coins."
-      extraData: ExtraData
-      inputSetIndex: 12
-      outputNodeIndex: 14
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 302
-        y: 81
-        width: 30
-        height: 21
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 8
-    rect:
-      serializedVersion: 2
-      x: 3920
-      y: -230
-      width: 349
-      height: 237
+      height: 121
     pTag: Mimi
-    expand: 1
-    sprite: {fileID: 21300000, guid: ef1a60adb79693f48b37b75d3b07e878, type: 3}
-    vars: []
-    varKeys: []
-    isPlayer: 1
-  - commentCount: 1
-    s_comment:
-    - text: '[Debt +2]'
-      extraData: ExtraData
-      inputSetIndex: 13
-      outputNodeIndex: 15
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 302
-        y: 59
-        width: 30
-        height: 21
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 9
-    rect:
-      serializedVersion: 2
-      x: 4280
-      y: -440
-      width: 349
-      height: 237
-    pTag: Mimi
-    expand: 1
-    sprite: {fileID: 21300000, guid: 54255e20f0a98344b842421502a77225, type: 3}
-    vars:
-    - 
-    varKeys:
-    - Key1
-    isPlayer: 1
-  - commentCount: 1
-    s_comment:
-    - text: "I\u2019m sorry \u2026 I really don\u2019t have enough. I\u2019ll pay
-        it back next time."
-      extraData: ExtraData
-      inputSetIndex: 14
-      outputNodeIndex: 15
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 302
-        y: 59
-        width: 30
-        height: 29
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 10
-    rect:
-      serializedVersion: 2
-      x: 4280
-      y: -140
-      width: 349
-      height: 223
-    pTag: Mimi
-    expand: 1
-    sprite: {fileID: 21300000, guid: b3fcbb41595ae8a4bb677aecaf0d82ae, type: 3}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 2
-    s_comment:
-    - text: "I\u2019m afraid I can\u2019t do that. It\u2019s just - [-3]"
-      extraData: ExtraData
-      inputSetIndex: 15
-      outputNodeIndex: 16
-      outActionIndex: -1
-      showmore: 1
-      outRect:
-        serializedVersion: 2
-        x: 302
-        y: 59
-        width: 30
-        height: 29
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: "Reluctant. \u201CWell \u2026 Only this time ok? [-5]"
-      extraData: ExtraData
-      inputSetIndex: 15
-      outputNodeIndex: 17
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 302
-        y: 116
-        width: 30
-        height: 29
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 11
-    rect:
-      serializedVersion: 2
-      x: 4660
-      y: -150
-      width: 349
-      height: 280
-    pTag: Mimi
-    expand: 1
-    sprite: {fileID: 21300000, guid: 54255e20f0a98344b842421502a77225, type: 3}
-    vars: []
-    varKeys: []
-    isPlayer: 1
-  - commentCount: 1
-    s_comment:
-    - text: She frowns but nods understandingly and pays the remaining 2 coins before
-        leaving.
-      extraData: ExtraData
-      inputSetIndex: 16
-      outputNodeIndex: -1
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 14
-    rect:
-      serializedVersion: 2
-      x: 5120
-      y: -260
-      width: 349
-      height: 236
-    pTag: Sullen faced girl
-    expand: 1
-    sprite: {fileID: 21300000, guid: b3fcbb41595ae8a4bb677aecaf0d82ae, type: 3}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 1
-    s_comment:
-    - text: She gives you a big smile before thanking you and leaving.
-      extraData: ExtraData
-      inputSetIndex: 17
-      outputNodeIndex: -1
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 16
-    rect:
-      serializedVersion: 2
-      x: 5290
-      y: 30
-      width: 349
-      height: 223
-    pTag: Sullen faced girl
-    expand: 1
-    sprite: {fileID: 21300000, guid: b3fcbb41595ae8a4bb677aecaf0d82ae, type: 3}
+    expand: 0
+    sprite: {fileID: 0}
     vars: []
     varKeys: []
     isPlayer: 0

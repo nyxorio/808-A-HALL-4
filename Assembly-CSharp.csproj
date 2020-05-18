@@ -82,13 +82,6 @@
     <Compile Include="Assets\VIDE\Data\VIDE_EditorDB.cs" />
     <Compile Include="Assets\VIDE\Data\VIDE_Localization.cs" />
     <Compile Include="Assets\VIDE\Demos\Localization\VIDEUIManager2.cs" />
-    <Compile Include="Assets\VIDE\Demos\MultiInstances\VIDEUIManager3.cs" />
-    <Compile Include="Assets\VIDE\Demos\Narration\DEMO_UIManager.cs" />
-    <Compile Include="Assets\VIDE\Demos\PlayerInteraction\demoScripts\CylinderGuy.cs" />
-    <Compile Include="Assets\VIDE\Demos\PlayerInteraction\demoScripts\QuestChartDemo.cs" />
-    <Compile Include="Assets\VIDE\Demos\PlayerInteraction\demoScripts\VIDEDemoPlayer.cs" />
-    <Compile Include="Assets\VIDE\Demos\PlayerInteraction\demoScripts\VIDEUIManager1.cs" />
-    <Compile Include="Assets\VIDE\Demos\PlayerInteraction\demoScripts\witchExample.cs" />
     <Compile Include="Assets\VIDE\Demos\Template\Template_UIManager.cs" />
     <Compile Include="Assets\VIDE\Demos\VeryBasic\minUIExample.cs" />
     <Compile Include="Assets\VIDE\VIDE_Assign.cs" />
@@ -98,11 +91,9 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\VIDE\Demos\Localization\README.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
-    <None Include="Assets\VIDE\Demos\MultiInstances\README.txt" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
-    <None Include="Assets\VIDE\Demos\PlayerInteraction\README.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />

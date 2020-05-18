@@ -9,6 +9,7 @@ public class NPC : MonoBehaviour
     [SerializeField] private int milk;
     [SerializeField] private string topping;
     [SerializeField] private int correctNode, wrongNode;
+    [SerializeField] private Sprite characterArt;
     private MilkTea order;
     private Template_UIManager UIManager;
 
@@ -34,5 +35,15 @@ public class NPC : MonoBehaviour
         }
         else
             UIManager.Jump(wrongNode);
+    }
+
+    public void ShowImage()
+    {
+        GetComponent<SpriteRenderer>().sprite = characterArt;
+    }
+
+    public void HideImage()
+    {
+        GetComponent<SpriteRenderer>().sprite = null;
     }
 }

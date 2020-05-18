@@ -6,10 +6,12 @@ public class Coins : MonoBehaviour
     [SerializeField] private Sprite smallPile, bigPile;
     private Text money;
     private int currentAmount;
+    private static int totalMoney;
 
     private void Start()
     {
         money = GameObject.Find("Money Text").GetComponent<Text>();
+        money.text = totalMoney.ToString();
         currentAmount = 0;
     }
 
@@ -25,12 +27,21 @@ public class Coins : MonoBehaviour
         GetComponent<Image>().enabled = true;
     }
 
+    public void ChangeTotal(int amount)
+    {
+        if (totalMoney + amount < 0)
+            return;
+        totalMoney += amount;
+        money.text = totalMoney.ToString();
+    }
+
     public void OnClick()
     {
         if (currentAmount <= 0)
             return;
 
-        money.text = (int.Parse(money.text) + currentAmount).ToString();
+        totalMoney += currentAmount;
+        money.text = totalMoney.ToString();
         currentAmount = 0;
         GetComponent<Image>().enabled = false;
     }

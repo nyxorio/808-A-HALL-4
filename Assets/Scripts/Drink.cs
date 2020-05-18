@@ -23,6 +23,7 @@ public class Drink : MonoBehaviour
         this.character = character.GetComponent<NPC>();
     }
 
+
     // Update is called once per frame
     void Update()
     {
@@ -57,10 +58,15 @@ public class Drink : MonoBehaviour
             if (hitTargets.tag == "NPC")
             {
                 character.Receive(drink);
-                transform.localPosition = startPos;
                 GetComponent<SpriteRenderer>().sprite = null;
-                //gameObject.SetActive(false);
-                return;
+                GetComponent<Collider2D>().enabled = false;
+                break;
+            }
+            if (hitTargets.tag == "Trash")
+            {
+                GetComponent<SpriteRenderer>().sprite = null;
+                GetComponent<Collider2D>().enabled = false;
+                break;
             }
         }
 

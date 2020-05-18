@@ -13,6 +13,9 @@ public class LevelChange : MonoBehaviour
             return;
         }
 
+        Coins money = GameObject.Find("Coins").GetComponent<Coins>();
+        if (money != null)
+            money.OnClick();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
