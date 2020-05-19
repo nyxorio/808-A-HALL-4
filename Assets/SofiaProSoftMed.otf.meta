@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e8c08228a64f8ec41aa606cbe1d85242
+guid: 19bb7e4efc7507d40a54f605814a9bed
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -11,7 +11,8 @@ TrueTypeFontImporter:
   fontName: Sofia Pro Soft
   fontNames:
   - Sofia Pro Soft
-  fallbackFontReferences: []
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: e8c08228a64f8ec41aa606cbe1d85242, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1
