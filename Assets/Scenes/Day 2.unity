@@ -568,19 +568,21 @@ MonoBehaviour:
   diags:
   - Charlie
   - Charlie2
+  - Charlie3
   - DEMO_Condition
   - Elya
   - Elya2
   - Nessalyn
+  - Nessalyn2
   - Tutorial
-  assignedIndex: 4
+  assignedIndex: 5
   assignedID: 3254
   assignedDialogue: Elya2
   interactionCount: 0
   alias: 
   overrideStartNode: -1
-  defaultNPCSprite: {fileID: 21300000, guid: b2a824c173321dc43b7091b340ec9756, type: 3}
-  defaultPlayerSprite: {fileID: 21300000, guid: 1fa2a9665b0159347bc908df4730b8e6,
+  defaultNPCSprite: {fileID: 21300000, guid: 3c14c8b39eeec374484ae3c633b2b712, type: 3}
+  defaultPlayerSprite: {fileID: 21300000, guid: 935422584ea4dad4595cdbf8225581c0,
     type: 3}
   targetManager: {fileID: 0}
   preload: 0
@@ -5859,10 +5861,12 @@ MonoBehaviour:
   diags:
   - Charlie
   - Charlie2
+  - Charlie3
   - DEMO_Condition
   - Elya
   - Elya2
   - Nessalyn
+  - Nessalyn2
   - Tutorial
   assignedIndex: 1
   assignedID: 63310
@@ -5870,8 +5874,8 @@ MonoBehaviour:
   interactionCount: 0
   alias: 
   overrideStartNode: -1
-  defaultNPCSprite: {fileID: 21300000, guid: dea542cc827a78c48bfe30b99af5f023, type: 3}
-  defaultPlayerSprite: {fileID: 21300000, guid: 1fa2a9665b0159347bc908df4730b8e6,
+  defaultNPCSprite: {fileID: 21300000, guid: 4821aaafc53cb6742913666482f98e43, type: 3}
+  defaultPlayerSprite: {fileID: 21300000, guid: 935422584ea4dad4595cdbf8225581c0,
     type: 3}
   targetManager: {fileID: 0}
   preload: 0

@@ -621,11 +621,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Blender.cs" />
+    <Compile Include="Assets\Scripts\Coins.cs" />
     <Compile Include="Assets\Scripts\Drink.cs" />
     <Compile Include="Assets\Scripts\Ingredient.cs" />
     <Compile Include="Assets\Scripts\MilkTea.cs" />
     <Compile Include="Assets\Scripts\NPC.cs" />
     <Compile Include="Assets\Scripts\Recipes.cs" />
+    <Compile Include="Assets\Scripts\UI\DialogueBox.cs" />
     <Compile Include="Assets\Scripts\UI\ExitScript.cs" />
     <Compile Include="Assets\Scripts\UI\LevelChange.cs" />
     <Compile Include="Assets\Scripts\UI\MilkMeter.cs" />
@@ -634,6 +636,16 @@
     <Compile Include="Assets\Scripts\UI\RecipeMenu.cs" />
     <Compile Include="Assets\Scripts\UI\Screen.cs" />
     <Compile Include="Assets\Scripts\UI\Settings.cs" />
+    <Compile Include="Assets\Scripts\VN_Controller.cs" />
+    <Compile Include="Assets\VIDE\Data\MiniJSON_VIDE.cs" />
+    <Compile Include="Assets\VIDE\Data\VIDE_Data.cs" />
+    <Compile Include="Assets\VIDE\Data\VIDE_Editor_Skin.cs" />
+    <Compile Include="Assets\VIDE\Data\VIDE_EditorDB.cs" />
+    <Compile Include="Assets\VIDE\Data\VIDE_Localization.cs" />
+    <Compile Include="Assets\VIDE\Demos\Localization\VIDEUIManager2.cs" />
+    <Compile Include="Assets\VIDE\Demos\Template\UIManager.cs" />
+    <Compile Include="Assets\VIDE\Demos\VeryBasic\minUIExample.cs" />
+    <Compile Include="Assets\VIDE\VIDE_Assign.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
@@ -654,6 +666,9 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\VIDE\Demos\About.txt" />
+    <None Include="Assets\VIDE\Demos\Localization\README.txt" />
+    <None Include="Assets\VIDE\ReadMe.txt" />
     <None Include="Packages\com.unity.collab-proxy\Editor\Resources\Styles\CollabHistoryCommon.uss" />
     <None Include="Packages\com.unity.collab-proxy\Editor\Resources\Styles\CollabHistoryDark.uss" />
     <None Include="Packages\com.unity.collab-proxy\Editor\Resources\Styles\CollabHistoryLight.uss" />
