@@ -43,23 +43,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 268dc70b105993846a123be43345df63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fileIndex: 4
+  fileIndex: 2
   skinIndex: 0
   loadTag: 
   startID: 0
   curFocusID: 0
-  currentID: 3254
+  currentID: 51226
   autosave: 1
   previewPanning: 0
-  currentDiag: 4
+  currentDiag: 2
   locEdit: 0
   pNodeID: 18
   aNodeID: 2
   S_playerDiags:
-  - commentCount: 5
+  - commentCount: 3
     s_comment:
-    - text: More customers comes and goes. They buy various drinks, letting you get
-        plenty of practice.
+    - text: As the day goes on, you notice a few ... shady people around your shop.
       extraData: ExtraData
       inputSetIndex: 0
       outputNodeIndex: 1
@@ -74,8 +73,7 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: As the day goes on, there were some more customers who seemed to be rather
-        engrossed in their mobile devices.
+    - text: 'Well, you probably shouldn''t judge. '
       extraData: ExtraData
       inputSetIndex: 0
       outputNodeIndex: -1
@@ -90,89 +88,9 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: A lot of them had a frown on their expression. From the soft chatter you
-        pick up here and there, it sounds like something unpleasant is happening in
-        the news.
+    - text: Soon enough, another familiar face shows up. For the third day in a row.
       extraData: ExtraData
       inputSetIndex: 0
-      outputNodeIndex: -1
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: However, that is no concern for you. Your job is to make people happy
-        with your drinks. If there is something that troublesome ...
-      extraData: ExtraData
-      inputSetIndex: 0
-      outputNodeIndex: -1
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: Well, that's for future you to deal with.
-      extraData: ExtraData
-      inputSetIndex: 0
-      outputNodeIndex: -1
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 0
-    rect:
-      serializedVersion: 2
-      x: -350
-      y: -110
-      width: 349
-      height: 447
-    pTag: 
-    expand: 1
-    sprite: {fileID: 21300000, guid: eae08329872d58c49b7a45ac20a67f58, type: 3}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 2
-    s_comment:
-    - text: 'You notice a familiar figure enter the cafe. She is also captivated by
-        her phone with a worried expression on her face. '
-      extraData: ExtraData
-      inputSetIndex: 1
-      outputNodeIndex: 2
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 302
-        y: 59
-        width: 30
-        height: 55
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: However, she let out a soft sigh before putting away the phone as she
-        approaches the counter and fgives you a small smile.
-      extraData: ExtraData
-      inputSetIndex: 1
       outputNodeIndex: -1
       outActionIndex: -1
       showmore: 0
@@ -188,19 +106,49 @@ MonoBehaviour:
     ID: 1
     rect:
       serializedVersion: 2
-      x: 30
-      y: -80
+      x: 90
+      y: 160
       width: 349
-      height: 305
-    pTag: Mimi
+      height: 309
+    pTag: 
     expand: 1
-    sprite: {fileID: 21300000, guid: eae08329872d58c49b7a45ac20a67f58, type: 3}
+    sprite: {fileID: 21300000, guid: 6efd171d299f246419a32398e5c05c6d, type: 3}
     vars: []
     varKeys: []
     isPlayer: 0
   - commentCount: 1
     s_comment:
-    - text: Good evening. Nice to see you again.
+    - text: Hello again.
+      extraData: ExtraData
+      inputSetIndex: 1
+      outputNodeIndex: -1
+      outActionIndex: 1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 21
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 2
+    rect:
+      serializedVersion: 2
+      x: 460
+      y: 120
+      width: 349
+      height: 121
+    pTag: Charlie
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 3
+    s_comment:
+    - text: Welcome back!
       extraData: ExtraData
       inputSetIndex: 2
       outputNodeIndex: 3
@@ -211,26 +159,56 @@ MonoBehaviour:
         x: 302
         y: 59
         width: 30
+        height: 21
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: Long time no see!
+      extraData: ExtraData
+      inputSetIndex: 2
+      outputNodeIndex: 5
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 81
+        width: 30
+        height: 21
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: Wow, did you miss me that much?
+      extraData: ExtraData
+      inputSetIndex: 2
+      outputNodeIndex: 9
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 103
+        width: 30
         height: 29
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    ID: 2
+    ID: 3
     rect:
       serializedVersion: 2
-      x: 390
-      y: -40
+      x: 830
+      y: 190
       width: 349
-      height: 129
-    pTag: Shy Girl
+      height: 173
+    pTag: 
     expand: 0
     sprite: {fileID: 0}
     vars: []
     varKeys: []
-    isPlayer: 0
-  - commentCount: 3
+    isPlayer: 1
+  - commentCount: 1
     s_comment:
-    - text: It's my pleasure. How can I help you today?
+    - text: She smiles at you.
       extraData: ExtraData
       inputSetIndex: 3
       outputNodeIndex: 4
@@ -241,121 +219,29 @@ MonoBehaviour:
         x: 302
         y: 59
         width: 30
-        height: 29
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: Is there something wrong?
-      extraData: ExtraData
-      inputSetIndex: 3
-      outputNodeIndex: 6
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 302
-        y: 89
-        width: 30
         height: 21
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: Hello! Everyone and their phones today ...
-      extraData: ExtraData
-      inputSetIndex: 3
-      outputNodeIndex: 7
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 302
-        y: 111
-        width: 30
-        height: 29
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 3
-    rect:
-      serializedVersion: 2
-      x: 760
-      y: -60
-      width: 349
-      height: 181
-    pTag: Mimi
-    expand: 0
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 1
-  - commentCount: 1
-    s_comment:
-    - text: She hesitates a moment, as if expecting something else. However, she quickly
-        recovers as she places a finger on her lips.
-      extraData: ExtraData
-      inputSetIndex: 4
-      outputNodeIndex: 5
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 302
-        y: 59
-        width: 30
-        height: 55
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
     ID: 4
     rect:
       serializedVersion: 2
-      x: 1140
-      y: -320
+      x: 1190
+      y: -10
       width: 349
-      height: 249
-    pTag: Shy Girl
+      height: 215
+    pTag: Charlie
     expand: 1
-    sprite: {fileID: 21300000, guid: eae08329872d58c49b7a45ac20a67f58, type: 3}
+    sprite: {fileID: 21300000, guid: 6efd171d299f246419a32398e5c05c6d, type: 3}
     vars: []
     varKeys: []
     isPlayer: 0
   - commentCount: 1
     s_comment:
-    - text: I liked my drink from yesterday. Can I get it again? The boba Matcha Milk
-        Tea with 100% milk?
+    - text: Thank you ... How has things been?
       extraData: ExtraData
-      inputSetIndex: 5
-      outputNodeIndex: 17
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 302
-        y: 59
-        width: 30
-        height: 42
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 5
-    rect:
-      serializedVersion: 2
-      x: 3020
-      y: -160
-      width: 349
-      height: 142
-    pTag: Shy Girl
-    expand: 0
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 2
-    s_comment:
-    - text: Hmm ... It's not that big of a deal. Just worrying news I guess.
-      extraData: ExtraData
-      inputSetIndex: 6
-      outputNodeIndex: 8
+      inputSetIndex: 4
+      outputNodeIndex: 13
       outActionIndex: -1
       showmore: 0
       outRect:
@@ -367,42 +253,25 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: Things will probably be fine ... The media is known for overinflating
-        stuff after all ...
-      extraData: ExtraData
-      inputSetIndex: 6
-      outputNodeIndex: -1
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 6
+    ID: 5
     rect:
       serializedVersion: 2
-      x: 1140
-      y: -50
+      x: 1550
+      y: 80
       width: 349
-      height: 172
-    pTag: Shy Girl
+      height: 129
+    pTag: Charlie
     expand: 0
     sprite: {fileID: 0}
     vars: []
     varKeys: []
     isPlayer: 0
-  - commentCount: 2
+  - commentCount: 1
     s_comment:
-    - text: Ah ... Yeah there has been some alarming news lately. Not that you need
-        to worry I think. No one would harm a cute girl like you.
+    - text: She pauses for a moment before letting out a soft chuckle. [+2]
       extraData: ExtraData
-      inputSetIndex: 7
-      outputNodeIndex: 8
+      inputSetIndex: 5
+      outputNodeIndex: 6
       outActionIndex: -1
       showmore: 0
       outRect:
@@ -410,13 +279,43 @@ MonoBehaviour:
         x: 302
         y: 59
         width: 30
-        height: 55
+        height: 29
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: Haha well, you probably already know about it from reading on your own.
+    ID: 6
+    rect:
+      serializedVersion: 2
+      x: 1190
+      y: 220
+      width: 349
+      height: 223
+    pTag: Charlie
+    expand: 1
+    sprite: {fileID: 21300000, guid: 6efd171d299f246419a32398e5c05c6d, type: 3}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 2
+    s_comment:
+    - text: Don't be cheeky on me now. That confused me for a second.
       extraData: ExtraData
-      inputSetIndex: 7
+      inputSetIndex: 6
+      outputNodeIndex: 7
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 29
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: Is there something wrong with me visiting so often?
+      extraData: ExtraData
+      inputSetIndex: 6
       outputNodeIndex: -1
       outActionIndex: -1
       showmore: 0
@@ -432,22 +331,22 @@ MonoBehaviour:
     ID: 7
     rect:
       serializedVersion: 2
-      x: 1140
-      y: 130
+      x: 1550
+      y: 220
       width: 349
-      height: 198
-    pTag: Shy Girl
+      height: 159
+    pTag: Charlie
     expand: 0
     sprite: {fileID: 0}
     vars: []
     varKeys: []
     isPlayer: 0
-  - commentCount: 3
+  - commentCount: 1
     s_comment:
-    - text: Oh ... I see. I'm sure everything will be ok.
+    - text: Of course not!
       extraData: ExtraData
-      inputSetIndex: 8
-      outputNodeIndex: 10
+      inputSetIndex: 7
+      outputNodeIndex: 8
       outActionIndex: -1
       showmore: 0
       outRect:
@@ -455,26 +354,27 @@ MonoBehaviour:
         x: 302
         y: 59
         width: 30
-        height: 29
+        height: 21
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: You seem more worried than some of the other customers. [-2]
-      extraData: ExtraData
-      inputSetIndex: 8
-      outputNodeIndex: 11
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 302
-        y: 89
-        width: 30
-        height: 42
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: Even so ... take care of yourself ok? [+3]
+    ID: 8
+    rect:
+      serializedVersion: 2
+      x: 1910
+      y: 230
+      width: 349
+      height: 121
+    pTag: Mimi
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 2
+    s_comment:
+    - text: I'm glad to hear. I'd have absolutely been devastated to be deprived of
+        my milk tea from this shop.
       extraData: ExtraData
       inputSetIndex: 8
       outputNodeIndex: 13
@@ -483,50 +383,35 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 302
-        y: 132
+        y: 59
         width: 30
-        height: 29
+        height: 55
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    ID: 8
-    rect:
-      serializedVersion: 2
-      x: 1520
-      y: 60
-      width: 349
-      height: 202
-    pTag: 
-    expand: 0
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 1
-  - commentCount: 1
-    s_comment:
-    - text: Yeah, it'll be fine. In any case ... What should I order today ...
+    - text: In any case, how have you been?
       extraData: ExtraData
-      inputSetIndex: 9
-      outputNodeIndex: 5
+      inputSetIndex: 8
+      outputNodeIndex: -1
       outActionIndex: -1
       showmore: 0
       outRect:
         serializedVersion: 2
-        x: 302
-        y: 59
-        width: 30
-        height: 29
+        x: 0
+        y: 0
+        width: 0
+        height: 0
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
     ID: 9
     rect:
       serializedVersion: 2
-      x: 2260
-      y: -100
+      x: 2270
+      y: 230
       width: 349
-      height: 129
-    pTag: Shy Girl
+      height: 177
+    pTag: Charlie
     expand: 0
     sprite: {fileID: 0}
     vars: []
@@ -534,11 +419,11 @@ MonoBehaviour:
     isPlayer: 0
   - commentCount: 1
     s_comment:
-    - text: She nods and musters up a smile, though she didn't seem very confident
-        about it.
+    - text: She gives you a small smirk and an look of disbelief at the fact you actually
+        said that out loud.
       extraData: ExtraData
-      inputSetIndex: 10
-      outputNodeIndex: 9
+      inputSetIndex: 9
+      outputNodeIndex: 10
       outActionIndex: -1
       showmore: 0
       outRect:
@@ -553,20 +438,49 @@ MonoBehaviour:
     ID: 10
     rect:
       serializedVersion: 2
-      x: 1890
-      y: -160
+      x: 1190
+      y: 460
       width: 349
       height: 236
-    pTag: Shy Girl
+    pTag: Charlie
     expand: 1
-    sprite: {fileID: 21300000, guid: eae08329872d58c49b7a45ac20a67f58, type: 3}
+    sprite: {fileID: 21300000, guid: 6efd171d299f246419a32398e5c05c6d, type: 3}
     vars: []
     varKeys: []
     isPlayer: 0
   - commentCount: 1
     s_comment:
-    - text: She blinks and seems to stiffen up a bit, before looking away, rubbing
-        her forearm awkwardly.
+    - text: And what if I said yes?
+      extraData: ExtraData
+      inputSetIndex: 10
+      outputNodeIndex: 11
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 21
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 11
+    rect:
+      serializedVersion: 2
+      x: 1550
+      y: 460
+      width: 349
+      height: 121
+    pTag: Charlie
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 2
+    s_comment:
+    - text: She got you there, leaving you with a nervous chuckle and a small blush.
       extraData: ExtraData
       inputSetIndex: 11
       outputNodeIndex: 12
@@ -581,55 +495,9 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    ID: 11
-    rect:
-      serializedVersion: 2
-      x: 1890
-      y: 90
-      width: 349
-      height: 236
-    pTag: Shy Girl
-    expand: 1
-    sprite: {fileID: 21300000, guid: eae08329872d58c49b7a45ac20a67f58, type: 3}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 3
-    s_comment:
-    - text: 'Is that so ... '
+    - text: She definitely notices that.
       extraData: ExtraData
-      inputSetIndex: 12
-      outputNodeIndex: 5
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 302
-        y: 59
-        width: 30
-        height: 21
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: Mmm ... Well ... Perhaps I'm a bit more worried than others I suppose.
-        But it's not really that big of a deal ... Don't worry yourself about it.
-      extraData: ExtraData
-      inputSetIndex: 12
-      outputNodeIndex: -1
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: In any case ... I suppose I shouldn't keep you too long. Let's see ...
-      extraData: ExtraData
-      inputSetIndex: 12
+      inputSetIndex: 11
       outputNodeIndex: -1
       outActionIndex: -1
       showmore: 0
@@ -645,53 +513,22 @@ MonoBehaviour:
     ID: 12
     rect:
       serializedVersion: 2
-      x: 2250
-      y: 90
+      x: 1910
+      y: 460
       width: 349
-      height: 233
-    pTag: Shy Girl
-    expand: 0
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 1
-    s_comment:
-    - text: She looks rather surprised for a moment before giving you a genuinely
-        sweet smile.
-      extraData: ExtraData
-      inputSetIndex: 13
-      outputNodeIndex: 14
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 302
-        y: 59
-        width: 30
-        height: 42
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 13
-    rect:
-      serializedVersion: 2
-      x: 1890
-      y: 340
-      width: 349
-      height: 236
-    pTag: Shy Girl
+      height: 258
+    pTag: Mimi
     expand: 1
-    sprite: {fileID: 21300000, guid: eae08329872d58c49b7a45ac20a67f58, type: 3}
+    sprite: {fileID: 21300000, guid: 6efd171d299f246419a32398e5c05c6d, type: 3}
     vars: []
     varKeys: []
     isPlayer: 0
-  - commentCount: 1
+  - commentCount: 3
     s_comment:
-    - text: 'You''re ... a kind person aren''t you? '
+    - text: 'Well, I can''t say no. It is quite relaxing to chat with you. '
       extraData: ExtraData
-      inputSetIndex: 14
-      outputNodeIndex: 15
+      inputSetIndex: 12
+      outputNodeIndex: 13
       outActionIndex: -1
       showmore: 0
       outRect:
@@ -703,14 +540,210 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
+    - text: Hopefully I'm not taking up too much of your time.
+      extraData: ExtraData
+      inputSetIndex: 12
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: How is everything by the way?
+      extraData: ExtraData
+      inputSetIndex: 12
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 13
+    rect:
+      serializedVersion: 2
+      x: 2270
+      y: 460
+      width: 349
+      height: 181
+    pTag: Charlie
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 3
+    s_comment:
+    - text: It's alright.
+      extraData: ExtraData
+      inputSetIndex: 13
+      outputNodeIndex: 14
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 21
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: Better now that you're here.
+      extraData: ExtraData
+      inputSetIndex: 13
+      outputNodeIndex: 16
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 81
+        width: 30
+        height: 21
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: There were some shady people ...
+      extraData: ExtraData
+      inputSetIndex: 13
+      outputNodeIndex: 20
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 103
+        width: 30
+        height: 29
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
     ID: 14
     rect:
       serializedVersion: 2
-      x: 2250
-      y: 340
+      x: 2640
+      y: 360
       width: 349
-      height: 129
-    pTag: Shy Girl
+      height: 173
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: She nods.
+      extraData: ExtraData
+      inputSetIndex: 14
+      outputNodeIndex: 15
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 21
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 16
+    rect:
+      serializedVersion: 2
+      x: 3000
+      y: 160
+      width: 349
+      height: 215
+    pTag: Charlie
+    expand: 1
+    sprite: {fileID: 21300000, guid: 6efd171d299f246419a32398e5c05c6d, type: 3}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 4
+    s_comment:
+    - text: That's good.
+      extraData: ExtraData
+      inputSetIndex: 15
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: It feels as if there has been some unruly business happening around the
+        neighborhood.
+      extraData: ExtraData
+      inputSetIndex: 15
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: I'm glad to hear that everything is ok on your end.
+      extraData: ExtraData
+      inputSetIndex: 15
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: This cafe is like ... a safe haven of sorts.
+      extraData: ExtraData
+      inputSetIndex: 15
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 17
+    rect:
+      serializedVersion: 2
+      x: 3360
+      y: 150
+      width: 349
+      height: 224
+    pTag: 
     expand: 0
     sprite: {fileID: 0}
     vars: []
@@ -718,11 +751,41 @@ MonoBehaviour:
     isPlayer: 0
   - commentCount: 1
     s_comment:
-    - text: She seems to think for a moment before looking back at you, her eyes seeming
-        a bit brighter than before.
+    - text: Flirty as always I see.
       extraData: ExtraData
-      inputSetIndex: 15
-      outputNodeIndex: 16
+      inputSetIndex: 16
+      outputNodeIndex: 17
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 21
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 18
+    rect:
+      serializedVersion: 2
+      x: 3000
+      y: 390
+      width: 349
+      height: 121
+    pTag: Charlie
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: However, the smile she couldn't hold back and the shimmer in her eyes
+        told you that she didn't take it badly. [+2]
+      extraData: ExtraData
+      inputSetIndex: 17
+      outputNodeIndex: 18
       outActionIndex: -1
       showmore: 0
       outRect:
@@ -734,177 +797,39 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    ID: 15
-    rect:
-      serializedVersion: 2
-      x: 2610
-      y: 340
-      width: 349
-      height: 249
-    pTag: Shy Girl
-    expand: 1
-    sprite: {fileID: 21300000, guid: eae08329872d58c49b7a45ac20a67f58, type: 3}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 2
-    s_comment:
-    - text: 'Thank you for your concern. I think ... things will be fine. '
-      extraData: ExtraData
-      inputSetIndex: 16
-      outputNodeIndex: 5
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 302
-        y: 59
-        width: 30
-        height: 29
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: Yeah ... I'll be sure to take care of myself. I'd hate to not be able
-        to come back here and taste more of your delicious milk teas after all.
-      extraData: ExtraData
-      inputSetIndex: 16
-      outputNodeIndex: -1
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 16
-    rect:
-      serializedVersion: 2
-      x: 2970
-      y: 340
-      width: 349
-      height: 198
-    pTag: Shy Girl
-    expand: 0
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 1
-    s_comment:
-    - text: Of course.
-      extraData: ExtraData
-      inputSetIndex: 17
-      outputNodeIndex: -1
-      outActionIndex: 0
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 302
-        y: 59
-        width: 30
-        height: 21
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 17
-    rect:
-      serializedVersion: 2
-      x: 3400
-      y: -160
-      width: 349
-      height: 121
-    pTag: Mimi
-    expand: 0
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 1
-  - commentCount: 2
-    s_comment:
-    - text: She still seems distracted when you go to give her the drink, though she
-        gives you a smile and nod of thank before taking the drink.
-      extraData: ExtraData
-      inputSetIndex: 18
-      outputNodeIndex: 20
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 302
-        y: 59
-        width: 30
-        height: 68
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: She takes a long sip before giving the drink a soft smile, proceeding
-        to direct that smile towards you.
-      extraData: ExtraData
-      inputSetIndex: 18
-      outputNodeIndex: -1
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
     ID: 19
     rect:
       serializedVersion: 2
-      x: 4010
-      y: -390
+      x: 3360
+      y: 390
       width: 349
-      height: 318
+      height: 249
     pTag: 
     expand: 1
-    sprite: {fileID: 21300000, guid: eae08329872d58c49b7a45ac20a67f58, type: 3}
+    sprite: {fileID: 21300000, guid: 6efd171d299f246419a32398e5c05c6d, type: 3}
     vars: []
     varKeys: []
     isPlayer: 0
-  - commentCount: 3
+  - commentCount: 2
     s_comment:
-    - text: '...'
+    - text: If you're not careful, someone might have the wrong impression you know.
       extraData: ExtraData
-      inputSetIndex: 19
-      outputNodeIndex: -1
-      outActionIndex: 0
+      inputSetIndex: 18
+      outputNodeIndex: 19
+      outActionIndex: -1
       showmore: 0
       outRect:
         serializedVersion: 2
         x: 302
         y: 59
         width: 30
-        height: 21
+        height: 42
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: This isn't what I ordered.
+    - text: And if that someone is me, well we might have a problem.
       extraData: ExtraData
-      inputSetIndex: 19
-      outputNodeIndex: -1
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: I asked for a boba Matcha Milk Tea with 100% milk.
-      extraData: ExtraData
-      inputSetIndex: 19
+      inputSetIndex: 18
       outputNodeIndex: -1
       outActionIndex: -1
       showmore: 0
@@ -920,22 +845,22 @@ MonoBehaviour:
     ID: 20
     rect:
       serializedVersion: 2
-      x: 4020
-      y: -40
+      x: 3720
+      y: 390
       width: 349
-      height: 173
-    pTag: Shy Girl
+      height: 172
+    pTag: 
     expand: 0
     sprite: {fileID: 0}
     vars: []
     varKeys: []
     isPlayer: 0
-  - commentCount: 2
+  - commentCount: 1
     s_comment:
-    - text: Cute ... [+1]
+    - text: Oh no ... Whatever will I do to atone for my sins.
       extraData: ExtraData
-      inputSetIndex: 20
-      outputNodeIndex: 21
+      inputSetIndex: 19
+      outputNodeIndex: 32
       outActionIndex: -1
       showmore: 0
       outRect:
@@ -943,32 +868,17 @@ MonoBehaviour:
         x: 302
         y: 59
         width: 30
-        height: 21
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: I'm glad you enjoy it.
-      extraData: ExtraData
-      inputSetIndex: 20
-      outputNodeIndex: -1
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
+        height: 29
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
     ID: 21
     rect:
       serializedVersion: 2
-      x: 4380
-      y: -290
+      x: 4080
+      y: 390
       width: 349
-      height: 143
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -977,10 +887,10 @@ MonoBehaviour:
     isPlayer: 1
   - commentCount: 1
     s_comment:
-    - text: There is a visible red hue on her cheeks.
+    - text: She purses her lips in thought for a moment.
       extraData: ExtraData
-      inputSetIndex: 21
-      outputNodeIndex: 22
+      inputSetIndex: 20
+      outputNodeIndex: 21
       outActionIndex: -1
       showmore: 0
       outRect:
@@ -995,22 +905,22 @@ MonoBehaviour:
     ID: 22
     rect:
       serializedVersion: 2
-      x: 4750
-      y: -370
+      x: 3000
+      y: 680
       width: 349
       height: 223
-    pTag: Shy Girl
+    pTag: Charlie
     expand: 1
-    sprite: {fileID: 21300000, guid: eae08329872d58c49b7a45ac20a67f58, type: 3}
+    sprite: {fileID: 21300000, guid: 6efd171d299f246419a32398e5c05c6d, type: 3}
     vars: []
     varKeys: []
     isPlayer: 0
-  - commentCount: 2
+  - commentCount: 3
     s_comment:
-    - text: W-what brought that on?
+    - text: You noticed it too huh ... Well I think it should be ok ...
       extraData: ExtraData
-      inputSetIndex: 22
-      outputNodeIndex: 23
+      inputSetIndex: 21
+      outputNodeIndex: 22
       outActionIndex: -1
       showmore: 0
       outRect:
@@ -1018,13 +928,29 @@ MonoBehaviour:
         x: 302
         y: 59
         width: 30
-        height: 21
+        height: 29
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: You shouldn't just tell that to any girl you meet ... You know ...
+    - text: Just be careful with yourself and your personal belongings. Especially
+        your money.
       extraData: ExtraData
-      inputSetIndex: 22
+      inputSetIndex: 21
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: Someone might steal some money before you notice if you leave it out.
+      extraData: ExtraData
+      inputSetIndex: 21
       outputNodeIndex: -1
       outActionIndex: -1
       showmore: 0
@@ -1040,11 +966,11 @@ MonoBehaviour:
     ID: 23
     rect:
       serializedVersion: 2
-      x: 5110
-      y: -370
+      x: 3000
+      y: 910
       width: 349
-      height: 151
-    pTag: Shy Girl
+      height: 215
+    pTag: Charlie
     expand: 0
     sprite: {fileID: 0}
     vars: []
@@ -1052,10 +978,10 @@ MonoBehaviour:
     isPlayer: 0
   - commentCount: 1
     s_comment:
-    - text: After a moment, she eases up and let out a soft giggle.
+    - text: Most of my customers are ok. There are a few interesting ones.
       extraData: ExtraData
-      inputSetIndex: 23
-      outputNodeIndex: 24
+      inputSetIndex: 22
+      outputNodeIndex: 23
       outActionIndex: -1
       showmore: 0
       outRect:
@@ -1070,22 +996,23 @@ MonoBehaviour:
     ID: 24
     rect:
       serializedVersion: 2
-      x: 5470
-      y: -370
+      x: 3390
+      y: 680
       width: 349
-      height: 223
-    pTag: Shy Girl
-    expand: 1
-    sprite: {fileID: 21300000, guid: eae08329872d58c49b7a45ac20a67f58, type: 3}
+      height: 129
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
     vars: []
     varKeys: []
-    isPlayer: 0
+    isPlayer: 1
   - commentCount: 2
     s_comment:
-    - text: You're quite bold ... but thank you, I appreciate it.
+    - text: She raises an eyebrow as she leans forward over the counter, porpping
+        her chin up on her hand.
       extraData: ExtraData
-      inputSetIndex: 24
-      outputNodeIndex: 25
+      inputSetIndex: 23
+      outputNodeIndex: 24
       outActionIndex: -1
       showmore: 0
       outRect:
@@ -1093,14 +1020,14 @@ MonoBehaviour:
         x: 302
         y: 59
         width: 30
-        height: 29
+        height: 55
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: Sorry about the awkwardness today, I'll try to have something better to
-        talk about next time.
+    - text: She has a small smile, as if she is rather curious about what you have
+        to say.
       extraData: ExtraData
-      inputSetIndex: 24
+      inputSetIndex: 23
       outputNodeIndex: -1
       outActionIndex: -1
       showmore: 0
@@ -1116,22 +1043,22 @@ MonoBehaviour:
     ID: 25
     rect:
       serializedVersion: 2
-      x: 5830
-      y: -370
+      x: 3390
+      y: 820
       width: 349
-      height: 172
-    pTag: Shy Girl
-    expand: 0
+      height: 292
+    pTag: Charlie
+    expand: 1
     sprite: {fileID: 0}
     vars: []
     varKeys: []
     isPlayer: 0
   - commentCount: 1
     s_comment:
-    - text: I'll look forward to it.
+    - text: Is that so?
       extraData: ExtraData
-      inputSetIndex: 25
-      outputNodeIndex: 26
+      inputSetIndex: 24
+      outputNodeIndex: 25
       outActionIndex: -1
       showmore: 0
       outRect:
@@ -1146,20 +1073,50 @@ MonoBehaviour:
     ID: 26
     rect:
       serializedVersion: 2
-      x: 6190
-      y: -370
+      x: 3770
+      y: 680
       width: 349
       height: 121
-    pTag: Mimi
+    pTag: 
     expand: 0
     sprite: {fileID: 0}
     vars: []
     varKeys: []
-    isPlayer: 1
+    isPlayer: 0
   - commentCount: 1
     s_comment:
-    - text: You stand there quietly for a moment before your eyes brighten, as if
-        remembering something. She seems to notice it as well.
+    - text: You talk about Elya, to which Charlie nodded along and commented that
+        she sounds like a nice girl.
+      extraData: ExtraData
+      inputSetIndex: 25
+      outputNodeIndex: 26
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 55
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 27
+    rect:
+      serializedVersion: 2
+      x: 3770
+      y: 810
+      width: 349
+      height: 249
+    pTag: Mimi
+    expand: 1
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: There's another girl named Nessalyn-
       extraData: ExtraData
       inputSetIndex: 26
       outputNodeIndex: 27
@@ -1170,47 +1127,17 @@ MonoBehaviour:
         x: 302
         y: 59
         width: 30
-        height: 68
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 27
-    rect:
-      serializedVersion: 2
-      x: 6550
-      y: -410
-      width: 349
-      height: 262
-    pTag: Mimi
-    expand: 1
-    sprite: {fileID: 21300000, guid: eae08329872d58c49b7a45ac20a67f58, type: 3}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 1
-    s_comment:
-    - text: What's your name? I'm Mimi.
-      extraData: ExtraData
-      inputSetIndex: 27
-      outputNodeIndex: 28
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 302
-        y: 59
-        width: 30
-        height: 21
+        height: 29
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
     ID: 28
     rect:
       serializedVersion: 2
-      x: 6910
-      y: -370
+      x: 3770
+      y: 1070
       width: 349
-      height: 121
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -1219,10 +1146,11 @@ MonoBehaviour:
     isPlayer: 1
   - commentCount: 1
     s_comment:
-    - text: She seems a bit startled before touching her cheek embarassedly.
+    - text: You pause, seeing a sudden shift in Charlie's expression. There was a
+        frown on her face.
       extraData: ExtraData
-      inputSetIndex: 28
-      outputNodeIndex: 29
+      inputSetIndex: 27
+      outputNodeIndex: 28
       outActionIndex: -1
       showmore: 0
       outRect:
@@ -1237,22 +1165,37 @@ MonoBehaviour:
     ID: 29
     rect:
       serializedVersion: 2
-      x: 7270
-      y: -370
+      x: 4170
+      y: 680
       width: 349
       height: 236
     pTag: Mimi
     expand: 1
-    sprite: {fileID: 21300000, guid: eae08329872d58c49b7a45ac20a67f58, type: 3}
+    sprite: {fileID: 21300000, guid: 6efd171d299f246419a32398e5c05c6d, type: 3}
     vars: []
     varKeys: []
     isPlayer: 0
-  - commentCount: 2
+  - commentCount: 3
     s_comment:
-    - text: Oh! How rude of me ... I forgot to introduce myself properly all this
-        time.
+    - text: It's probably not my business but ...
       extraData: ExtraData
-      inputSetIndex: 29
+      inputSetIndex: 28
+      outputNodeIndex: 29
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 29
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: Hmm ... It's probably ok. But just be careful around her. She's not ...
+        quite as simple as she appears to be.
+      extraData: ExtraData
+      inputSetIndex: 28
       outputNodeIndex: -1
       outActionIndex: -1
       showmore: 0
@@ -1265,9 +1208,10 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: 'I''m Elya! You can just call me '
+    - text: Let's just say ... Well I shouldn't talk about it. I'll just leave it
+        at that.
       extraData: ExtraData
-      inputSetIndex: 29
+      inputSetIndex: 28
       outputNodeIndex: -1
       outActionIndex: -1
       showmore: 0
@@ -1283,30 +1227,148 @@ MonoBehaviour:
     ID: 30
     rect:
       serializedVersion: 2
-      x: 7630
-      y: -370
+      x: 4170
+      y: 920
       width: 349
-      height: 164
+      height: 228
+    pTag: Charlie
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: She doesn't seem like she wants to talk about it anymore.
+      extraData: ExtraData
+      inputSetIndex: 29
+      outputNodeIndex: 30
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 29
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 31
+    rect:
+      serializedVersion: 2
+      x: 4530
+      y: 680
+      width: 349
+      height: 223
+    pTag: 
+    expand: 1
+    sprite: {fileID: 21300000, guid: 6efd171d299f246419a32398e5c05c6d, type: 3}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: Could you make me a boba Milk Tea with 25% milk today?
+      extraData: ExtraData
+      inputSetIndex: 30
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 32
+    rect:
+      serializedVersion: 2
+      x: 5160
+      y: 560
+      width: 349
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
     vars: []
     varKeys: []
     isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: Well ... I can think of one thing.
+      extraData: ExtraData
+      inputSetIndex: 31
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 33
+    rect:
+      serializedVersion: 2
+      x: 4800
+      y: 390
+      width: 349
+      height: 121
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: She has an amused smile on her expression.
+      extraData: ExtraData
+      inputSetIndex: 32
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 34
+    rect:
+      serializedVersion: 2
+      x: 4440
+      y: 390
+      width: 349
+      height: 223
+    pTag: 
+    expand: 1
+    sprite: {fileID: 21300000, guid: 6efd171d299f246419a32398e5c05c6d, type: 3}
+    vars: []
+    varKeys: []
+    isPlayer: 0
   S_actionNodes:
-  - pauseHere: 1
-    gameObjectName: Blender
-    methodName: BootUp
-    nameIndex: 2
-    methodIndex: 2
-    paramIndex: 0
+  - pauseHere: 0
+    gameObjectName: Coins
+    methodName: AddMoney
+    nameIndex: 8
+    methodIndex: 1
+    paramIndex: 3
     opts:
     - '[No method]'
-    - Add
-    - BootUp
-    - Shutdown
-    - Reset
-    - Mix
+    - AddMoney
+    - ChangeTotal
+    - OnClick
     nameOpts:
     - '[No object]'
     - Canvas (Recipe)
@@ -1322,10 +1384,64 @@ MonoBehaviour:
     - Slider
     - Character List
     - Text (TMP)
+    - Character
     - Text
     - Milk InputField
     - Label
+    - Text
+    - Text
+    - Text (TMP)
+    param_bool: 0
+    param_string: 
+    param_int: -10
+    param_float: 0
+    rect:
+      serializedVersion: 2
+      x: -140
+      y: 180
+      width: 200
+      height: 176
+    ID: 0
+    outPlayerIndex: 0
+    outActionIndex: -1
+    more: 0
+    ovrStartNode: -1
+    renameDialogue: 
+  - pauseHere: 0
+    gameObjectName: Character
+    methodName: ToggleSprite
+    nameIndex: 14
+    methodIndex: 1
+    paramIndex: 0
+    opts:
+    - '[No method]'
+    - ToggleSprite
+    - Continue
+    - GetAssigned
+    - AssignNew
+    - SaveState
+    - LoadState
+    - OnBeforeSerialize
+    - OnAfterDeserialize
+    nameOpts:
+    - '[No object]'
+    - Canvas (Recipe)
+    - Blender
+    - Canvas (Esc)
+    - Text
+    - Text
+    - Text
+    - UIMANAGER
+    - Coins
+    - Text
+    - Meter
+    - Slider
+    - Character List
+    - Text (TMP)
     - Character
+    - Text
+    - Milk InputField
+    - Label
     - Text
     - Text
     - Text (TMP)
@@ -1335,12 +1451,12 @@ MonoBehaviour:
     param_float: 0
     rect:
       serializedVersion: 2
-      x: 3780
-      y: -170
+      x: 590
+      y: 270
       width: 200
       height: 158
-    ID: 18
-    outPlayerIndex: 18
+    ID: 15
+    outPlayerIndex: 2
     outActionIndex: -1
     more: 0
     ovrStartNode: -1
