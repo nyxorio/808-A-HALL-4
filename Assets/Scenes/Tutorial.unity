@@ -3718,18 +3718,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   diags:
   - Charlie
+  - Charlie2
+  - Charlie3
   - DEMO_Condition
-  - Distracted_Girl
-  - Shy_Girl
+  - Elya
+  - Elya2
+  - Nessalyn
+  - Nessalyn2
   - Tutorial
-  assignedIndex: 4
+  assignedIndex: 8
   assignedID: 22329
   assignedDialogue: Tutorial
   interactionCount: 0
   alias: 
   overrideStartNode: -1
-  defaultNPCSprite: {fileID: 21300000, guid: 54255e20f0a98344b842421502a77225, type: 3}
-  defaultPlayerSprite: {fileID: 21300000, guid: 1fa2a9665b0159347bc908df4730b8e6,
+  defaultNPCSprite: {fileID: 21300000, guid: 935422584ea4dad4595cdbf8225581c0, type: 3}
+  defaultPlayerSprite: {fileID: 21300000, guid: 935422584ea4dad4595cdbf8225581c0,
     type: 3}
   targetManager: {fileID: 0}
   preload: 0

@@ -17,21 +17,20 @@ public class Coins : MonoBehaviour
 
     public void AddMoney(int amount)
     {
-        currentAmount += amount;
+        currentAmount = Mathf.Max(0, currentAmount + amount);
 
         if (currentAmount < 15)
             GetComponent<Image>().sprite = smallPile;
         else
             GetComponent<Image>().sprite = bigPile;
 
-        GetComponent<Image>().enabled = true;
+        if (currentAmount > 0)
+            GetComponent<Image>().enabled = true;
     }
 
     public void ChangeTotal(int amount)
     {
-        if (totalMoney + amount < 0)
-            return;
-        totalMoney += amount;
+        totalMoney = Mathf.Max(0, totalMoney + amount);
         money.text = totalMoney.ToString();
     }
 
